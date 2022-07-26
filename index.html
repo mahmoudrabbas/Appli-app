@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js recap</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="main.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logo"><a href="#">Appli.com</a></div>
+            <div class="icon" id="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="links">
+                <li class="link active"><a href="#home">Home</a></li>
+                <li class="link "><a href="#setting">Setting</a></li>
+                <li class="link "><a href="#about">About</a></li>
+                <li class="link "><a href="#contact">Contact</a></li>
+                <li class="link "><a href="#sign">Sign</a></li>
+            </ul>
+        </div>
+        <div class="toast" id="toast">
+            <div class="box">
+                <span class="close" id="closeBtn">×</span>
+                <p class="message">Welcome back!</p>
+            </div>
+        </div>
+        <form>
+            <div class="group-input">
+                <input type="email" name="email" id="email" placeholder="Email" />
+                <p class="check" id="checkEmail">Enter your email</p>
+            </div>
+            <div class="group-input">
+                <input type="password" name="password" id="password" placeholder="Password" />
+                <p class="check" id="checkPassword">Enter your password</p>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+    </body>
+
+</html>
